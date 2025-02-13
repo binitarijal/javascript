@@ -10,11 +10,11 @@ const a={
     }
 }
 a.greeting=function(){
-    console.log("hi cutiee!!!");
+    //console.log("hi cutiee!!!");
 
 }
 a.hello=function(){
-    console.log(this.classs);
+    //console.log(this.classs);
 }
 a.greeting();
 a.hello();
@@ -26,3 +26,19 @@ a.hello();
 //  console.log(a["age"]);
 //  console.log(a.course.sub1)
 //  console.log(a.course)
+
+const b={
+    launa:"haina k bho??",
+    age:45,
+
+    func:()=>{
+//
+// console.log("mata dhaley dhaley")
+    }
+}
+for(let i in b){
+console.log(`${b[i]}`)
+}
+
+
+b.func();
