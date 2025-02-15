@@ -32,12 +32,11 @@ const b={
     age:45,
 
     func:()=>{
-//
-// console.log("mata dhaley dhaley")
+console.log("mata dhaley dhaley")
     }
 }
 for(let i in b){
-console.log(`${b[i]}`)
+console.log(b[i])
 }
 
 
